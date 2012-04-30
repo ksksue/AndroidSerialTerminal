@@ -1,14 +1,23 @@
 USB Serial Terminal for Android
 =====
 
-USB Serial Terminal for Android
+※現在は別レポジトリで管理しています。
+[Android USB Serial Terminal Lite](https://github.com/ksksue/Android-USB-Serial-Monitor-Lite "Android USB Serial Monitor Lite")
 
-- char, dec, hex display setting
-- baud rate and data bits, parity, stop bits, flow control, break setting
-- linefeed code setting
-- email result to your address
+！注意！Android 3.1以上であってもUSB Host APIを備えている機種でしか使用できません。<br>
+例えば、docomo製のGalaxy NexusにはUSB Host APIが備わっていません。
 
-require the FTDriver library project
+
+特徴
+- FTDI社製のUSBシリアル変換チップに対応
+- Androidのルート権限を取る必要はなし
+- ボーレート、データビット、パリティ、ストップビット、フロー制御の設定可
+- 文字、16進数、10進数表示を切り替え
+- 改行コード（CR ／ LF ／ CF＋LF）の選択可
+- ADKのようにマイコン側に電源は必要なく、USBケーブルから電源供給
+- Android のバージョンは3.1以上必須
+
+[FTDriver](https://github.com/ksksue/FTDriver "FTDriver")が別途必要です。
 
 About me
 ---
