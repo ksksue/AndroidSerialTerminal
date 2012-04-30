@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/display_setting_title">
+	    <ListPreference
+		    android:key="fontsize_list"
+		    android:title="@string/fontsize_title"
+		    android:summary="@string/fontsize_summary"
+		    android:entries="@array/fontsize_entries"
+		    android:entryValues="@array/fontsize_entryvalues"
+		    android:defaultValue="12"
+		/>
+	
+		<ListPreference
+		    android:key="display_list"
+		    android:title="@string/display_title"
+		    android:summary="@string/display_summary"
+		    android:entries="@array/display_entries"
+		    android:entryValues="@array/display_entryvalues"
+		    android:defaultValue="0"
+		/>
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/linefeedcode_setting_title">
+		<ListPreference
+		    android:key="readlinefeedcode_list"
+		    android:title="@string/readlinefeedcode_title"
+		    android:summary="@string/readlinefeedcode_summary"
+		    android:entries="@array/readlinefeedcode_entries"
+		    android:entryValues="@array/readlinefeedcode_entryvalues"
+		    android:defaultValue="2"
+		/>
+		<ListPreference
+		    android:key="writelinefeedcode_list"
+		    android:title="@string/writelinefeedcode_title"
+		    android:summary="@string/writelinefeedcode_summary"
+		    android:entries="@array/writelinefeedcode_entries"
+		    android:entryValues="@array/writelinefeedcode_entryvalues"
+		    android:defaultValue="2"
+		/>
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/email_setting_title">
+		<EditTextPreference
+		    android:key="email_edittext"
+		    android:title="@string/email_title"
+		    android:summary="@string/email_summary"
+		    android:inputType="textEmailAddress"
+		    android:defaultValue="\@gmail.com"
+		/>
+	</PreferenceCategory>
+</PreferenceScreen>

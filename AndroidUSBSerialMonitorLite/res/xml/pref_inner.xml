@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<PreferenceCategory android:title="@string/serial_setting_title" >
+        <ListPreference
+            android:entries="@array/baudrate_entries"
+            android:entryValues="@array/baudrate_entryvalues"
+            android:key="baudrate_list"
+            android:summary="@string/baudrate_summary"
+            android:title="@string/baudrate_title"
+		     android:defaultValue="9600" />
+        
+        <ListPreference
+            android:entries="@array/databits_entries"
+            android:entryValues="@array/databits_entryvalues"
+            android:key="databits_list"
+            android:summary="@string/databits_summary"
+            android:title="@string/databits_title"
+		     android:defaultValue="8" />
+        
+        <ListPreference
+            android:entries="@array/parity_entries"
+            android:entryValues="@array/parity_entryvalues"
+            android:key="parity_list"
+            android:summary="@string/parity_summary"
+            android:title="@string/parity_title"
+		     android:defaultValue="0" />
+        
+        <ListPreference
+            android:entries="@array/stopbits_entries"
+            android:entryValues="@array/stopbits_entryvalues"
+            android:key="stopbits_list"
+            android:summary="@string/stopbits_summary"
+            android:title="@string/stopbits_title"
+		     android:defaultValue="0" />
+        
+        <ListPreference
+            android:entries="@array/flowcontrol_entries"
+            android:entryValues="@array/flowcontrol_entryvalues"
+            android:key="flowcontrol_list"
+            android:summary="@string/flowcontrol_summary"
+            android:title="@string/flowcontrol_title"
+		     android:defaultValue="0" />
+        
+        <ListPreference
+            android:entries="@array/break_entries"
+            android:entryValues="@array/break_entryvalues"
+            android:key="break_list"
+            android:summary="@string/break_summary"
+            android:title="@string/break_title"
+		     android:defaultValue="0" />
+    </PreferenceCategory>	
+	
+</PreferenceScreen>

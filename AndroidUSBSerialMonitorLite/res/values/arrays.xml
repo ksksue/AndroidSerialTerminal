@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <string-array name="fontsize_entries">
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="fontsize_entryvalues">
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>20</item>
+    </string-array>
+    
+    
+    <string-array name="display_entries">
+        <item >Character</item>
+        <item >Decimal</item>
+        <item >Hex</item>
+    </string-array>
+    <string-array name="display_entryvalues">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+    </string-array>
+    
+    
+    <string-array name="readlinefeedcode_entries">
+        <item >CR</item>
+        <item >CR+LF</item>
+        <item >LF</item>
+        <item >NONE</item>
+    </string-array>
+    <string-array name="readlinefeedcode_entryvalues">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+    </string-array>
+    
+    <string-array name="writelinefeedcode_entries">
+        <item >CR</item>
+        <item >CR+LF</item>
+        <item >LF</item>
+        <item >NONE</item>
+    </string-array>
+    <string-array name="writelinefeedcode_entryvalues">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+    </string-array>
+    
+    
+    <string-array name="baudrate_entries">
+        <item >1200</item>
+        <item >2400</item>
+        <item >4800</item>
+        <item >9600</item>
+        <item >14400</item>
+        <item >19200</item>
+        <item >38400</item>
+        <item >57600</item>
+        <item >115200</item>
+    </string-array>
+    <string-array name="baudrate_entryvalues">
+        <item >1200</item>
+        <item >2400</item>
+        <item >4800</item>
+        <item >9600</item>
+        <item >14400</item>
+        <item >19200</item>
+        <item >38400</item>
+        <item >57600</item>
+        <item >115200</item>
+    </string-array>
+    
+    
+    <string-array name="databits_entries">
+        <item >7</item>
+        <item >8</item>
+    </string-array>
+    <string-array name="databits_entryvalues">
+        <item >7</item>
+        <item >8</item>
+    </string-array>
+    
+    
+    <string-array name="parity_entries">
+        <item >NONE</item>
+        <item >ODD</item>
+        <item >EVEN</item>
+        <item >MARK</item>
+        <item >SPACE</item>
+    </string-array>
+    <string-array name="parity_entryvalues">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+    </string-array>
+    
+    
+    <string-array name="stopbits_entries">
+        <item >1</item>
+        <item >1.5</item>
+        <item >2</item>
+    </string-array>
+    <string-array name="stopbits_entryvalues">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+    </string-array>
+    
+    
+    <string-array name="flowcontrol_entries">
+        <item >NONE</item>
+        <item >RTS/CTS</item>
+        <item >DTR/DSR</item>
+        <item >XON</item>
+    </string-array>
+    <string-array name="flowcontrol_entryvalues">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+    </string-array>
+    
+    
+    <string-array name="break_entries">
+        <item >NO BREAK</item>
+        <item >BREAK</item>
+    </string-array>
+    <string-array name="break_entryvalues">
+        <item >0</item>
+        <item >1</item>
+    </string-array>
+    
+</resources>
