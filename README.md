@@ -32,7 +32,11 @@ USB Host APIに対応していない可能性があります。
 
 
 接続例
-----
+---
+このアプリはFTDIチップのみ対応しています。<br>
+FTDIが搭載されているArduino Nanoと<br>
+搭載されていないArduino Unoの場合で接続例を記します。<br>
+
 <b>Arduino NanoとAndroidを繋げる場合</b><br>
 USBポートを直接Android端末へ繋げます。<br>
 ![Android-Nano](https://lh3.googleusercontent.com/-CYv_iILw_wo/T-CxNRHlXKI/AAAAAAAACa4/_Cbbp1o0xZ8/s800/Android-Arduino%2520Nano.png "Android-Nano")<br>
